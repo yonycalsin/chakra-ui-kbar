@@ -1,0 +1,35 @@
+{
+  "name": "chakra-ui-kbar",
+  "author": "Yony Calsin",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "prettier": "pnpm exec prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
+    "format": "pnpm run prettier --write",
+    "format-check": "pnpm run prettier --list-different",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=docs^... && changeset publish",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.4.5",
+    "@changesets/cli": "2.23.0",
+    "@chakra-ui-kbar/eslint-config-base": "*",
+    "@yonycalsin/prettier-config-react-typescript": "1.0.1",
+    "eslint": "8.18.0",
+    "prettier": "2.7.1",
+    "rimraf": "3.0.2",
+    "turbo": "1.2.16"
+  },
+  "engines": {
+    "node": "16.14.0"
+  },
+  "volta": {
+    "node": "16.14.0"
+  },
+  "packageManager": "pnpm@7.1.3"
+}
