@@ -11,7 +11,7 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo run build --filter=docs^... && changeset publish",
-    "lint:ts": "tsc --noEmit"
+    "lint:ts": "turbo run lint:ts --no-cache --parallel --continue"
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",

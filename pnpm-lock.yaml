@@ -28,6 +28,8 @@ importers:
       '@storybook/addon-links': ^6.4.18
       '@storybook/builder-vite': ^0.1.33
       '@storybook/react': ^6.4.18
+      '@types/react': ^18.0.9
+      '@types/react-dom': ^18.0.4
       '@vitejs/plugin-react': ^1.3.2
       eslint-config-chakra-ui-kbar: '*'
       react: ^18.0.0
@@ -47,6 +49,8 @@ importers:
       '@storybook/addon-links': 6.5.12_biqbaboplfbrettd7655fr4n2y
       '@storybook/builder-vite': 0.1.41_vfgwwkpoehpy2fmn2zzviae4ai
       '@storybook/react': 6.5.12_l5daa3ybwoxgnmgfnxoffaci5e
+      '@types/react': 18.0.20
+      '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 1.3.2
       eslint-config-chakra-ui-kbar: link:../../packages/eslint-config-chakra-ui-kbar
       serve: 13.0.4
