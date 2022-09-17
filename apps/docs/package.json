@@ -2,6 +2,7 @@
   "name": "@chakra-ui-kbar/docs",
   "version": "0.0.0",
   "private": true,
+  "author": "Yony Calsin",
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook --docs",

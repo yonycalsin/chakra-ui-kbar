@@ -14,10 +14,10 @@ pnpm add -S -E chakra-ui-kbar@latest
 ```
 
 ```tsx
-import { ChakraKBarProvider } from "chakra-ui-kbar";
+import { ChakraKBarProvider } from 'chakra-ui-kbar'
 
 function MyApp() {
-  return <ChakraKBarProvider>// ...</ChakraKBarProvider>;
+  return <ChakraKBarProvider>// ...</ChakraKBarProvider>
 }
 ```
 
