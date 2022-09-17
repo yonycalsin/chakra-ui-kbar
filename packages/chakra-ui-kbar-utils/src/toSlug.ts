@@ -1,18 +1,25 @@
 /**
  * Return a slugified copy of a string.
  *
- * @param {string} str The string to be slugified
+ * @param {string} value The string to be slugified
  * @return {string} The slugified string.
  */
-export function toSlug(str: string): string {
-  let s = str
-  if (!s) {
+export function toSlug(value: string): string {
+  let newValue = value
+
+  if (!newValue) {
     return ''
   }
-  s = s.toLowerCase().trim()
-  s = s.replace(/ & /g, ' and ')
-  s = s.replace(/[ ]+/g, '-')
-  s = s.replace(/[-]+/g, '-')
-  s = s.replace(/[^a-z0-9-]+/g, '')
-  return s
+
+  newValue = newValue.toLowerCase().trim()
+
+  newValue = newValue.replace(/ & /g, ' and ')
+
+  newValue = newValue.replace(/[ ]+/g, '-')
+
+  newValue = newValue.replace(/[-]+/g, '-')
+
+  newValue = newValue.replace(/[^a-z0-9-]+/g, '')
+
+  return newValue
 }
