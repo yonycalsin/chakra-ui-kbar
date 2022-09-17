@@ -4,6 +4,7 @@ importers:
 
   .:
     specifiers:
+      '@changesets/changelog-github': 0.4.6
       '@changesets/cli': ^2.22.0
       '@yonycalsin/prettier-config-react-typescript': 1.0.1
       eslint: ^8.15.0
@@ -11,6 +12,7 @@ importers:
       prettier: ^2.5.1
       turbo: latest
     devDependencies:
+      '@changesets/changelog-github': 0.4.6
       '@changesets/cli': 2.24.4
       '@yonycalsin/prettier-config-react-typescript': 1.0.1
       eslint: 8.23.1
@@ -1619,6 +1621,16 @@ packages:
       '@changesets/types': 5.1.0
     dev: true
 
+  /@changesets/changelog-github/0.4.6:
+    resolution: {integrity: sha512-ahR/+o3OPodzfG9kucEMU/tEtBgwy6QoJiWi1sDBPme8n3WjT6pBlbhqNYpWAJKilomwfjBGY0MTUTs6r9d1RQ==}
+    dependencies:
+      '@changesets/get-github-info': 0.5.1
+      '@changesets/types': 5.1.0
+      dotenv: 8.6.0
+    transitivePeerDependencies:
+      - encoding
+    dev: true
+
   /@changesets/cli/2.24.4:
     resolution: {integrity: sha512-87JSwMv38zS3QW3062jXZYLsCNRtA08wa7vt3VnMmkGLfUMn2TTSfD+eSGVnKPJ/ycDCvAcCDnrv/B+gSX5KVA==}
     hasBin: true
@@ -1684,6 +1696,15 @@ packages:
       chalk: 2.4.2
       fs-extra: 7.0.1
       semver: 5.7.1
+    dev: true
+
+  /@changesets/get-github-info/0.5.1:
+    resolution: {integrity: sha512-w2yl3AuG+hFuEEmT6j1zDlg7GQLM/J2UxTmk0uJBMdRqHni4zXGe/vUlPfLom5KfX3cRfHc0hzGvloDPjWFNZw==}
+    dependencies:
+      dataloader: 1.4.0
+      node-fetch: 2.6.7
+    transitivePeerDependencies:
+      - encoding
     dev: true
 
   /@changesets/get-release-plan/3.0.14:
@@ -5531,6 +5552,10 @@ packages:
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
     dev: false
+
+  /dataloader/1.4.0:
+    resolution: {integrity: sha512-68s5jYdlvasItOJnCuI2Q9s4q98g0pCyL3HrcKJu8KNugUl8ahgmZYg38ysLTgQjjXX3H8CJLkAvWrclWfcalw==}
+    dev: true
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
