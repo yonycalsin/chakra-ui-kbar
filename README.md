@@ -4,20 +4,26 @@
 
 ```bash
 # with npm
-npm install -S -E chakra-ui-kbar@latest
+npm install -S -E @chakra-kbar@core
 
 # with yarn
-yarn add -S -E chakra-ui-kbar@latest
+yarn add -S -E @chakra-kbar@core
 
 # with pnpm
-pnpm add -S -E chakra-ui-kbar@latest
+pnpm add -S -E @chakra-kbar@core
 ```
 
 ```tsx
-import { ChakraKBarProvider } from 'chakra-ui-kbar'
+import { ChakraKBar } from '@chakra-ui-kbar/core'
 
 function MyApp() {
-  return <ChakraKBarProvider>// ...</ChakraKBarProvider>
+  return (
+    <ChakraProvider>
+        <ChakraKBar>
+            <p>example content</p>
+        </ChakraKBar>
+    </ChakraProvider>
+  )
 }
 ```
 
