@@ -1,4 +1,4 @@
-# Chakra Ui Kbar
+# chakra-ui-kbar
 
 ## Getting Started
 
