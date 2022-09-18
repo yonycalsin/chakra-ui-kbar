@@ -6,8 +6,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --no-cache --parallel --continue",
     "lint": "turbo run lint",
-    "clean": "echo \"Hi\"",
-    "clean:force": "turbo run clean && rm -rf node_modules",
+    "clean": "turbo run clean",
+    "clean:force": "turbo run clean && rimraf -rf node_modules",
     "format": "prettier --write --ignore-path .gitignore \"**/*.{ts,tsx,md,js,json}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
@@ -21,6 +21,7 @@
     "eslint": "^8.15.0",
     "eslint-config-chakra-ui-kbar": "*",
     "prettier": "^2.5.1",
+    "rimraf": "3.0.2",
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.11.0",
