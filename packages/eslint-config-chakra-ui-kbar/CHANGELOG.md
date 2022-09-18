@@ -1,5 +1,11 @@
 # eslint-config-chakra-ui-kbar
 
+## 2.0.0
+
+### Major Changes
+
+- [`9125359`](https://github.com/yonycalsin/chakra-ui-kbar/commit/9125359425b525c00a8b2d4a81c7f1070ddf064a) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add command bar
+
 ## 1.0.0
 
 ### Major Changes
