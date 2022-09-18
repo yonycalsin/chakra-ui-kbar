@@ -1,3 +1,5 @@
+export * from 'kbar'
+
 export * from './chakra-kbar'
 export * from './chakra-kbar-animator'
 export * from './chakra-kbar-breadcrumbs'
