@@ -4,13 +4,13 @@
 
 ```bash
 # with npm
-npm install -S -E @chakra-kbar@core
+npm install -S -E @chakra-ui-kbar/core
 
 # with yarn
-yarn add -S -E @chakra-kbar@core
+yarn add -S -E @chakra-ui-kbar/core
 
 # with pnpm
-pnpm add -S -E @chakra-kbar@core
+pnpm add -S -E @chakra-ui-kbar/core
 ```
 
 ```tsx
